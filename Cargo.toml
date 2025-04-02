@@ -1,0 +1,9 @@
+[package]
+name = "kod"
+version = "0.1.0"
+edition = "2021"
+authors = ["Antal Buss <antal.buss@gmail.com>"]
+
+[dependencies]
+clap = { version = "4.5.21", features = ["cargo"] }
+mlua = { version = "0.10.1", features = ["lua54", "vendored"] }
